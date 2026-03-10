@@ -1,0 +1,98 @@
+
+nav{
+    background-color: #3C4F68;
+    height: 100px;
+    opacity: .7;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    font-family: "Titillium Web", sans-serif;
+}
+button {
+    margin: 0 auto;
+    display: inline;
+    gap: 200px;
+    height: 95px;
+    margin: 0px 60px;
+    width: 80px;
+    background-color: #3C4F68;
+    border: none;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #223B5C;
+}
+button.project{
+    margin: 0 auto;
+    display: inline;
+    gap: 200px;
+    height: 95px;
+    margin: 0px 60px;
+    margin-right: 0;
+}
+.logo{
+    height: 100px;
+    float: right;
+}
+
+
+
+h1{
+
+    text-align: center;
+    font-family: "Gravitas One", sans-serif;
+
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url(images/background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+footer{
+    
+   
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    color: #2B859B;
+    background-color: black;
+    
+}
+
+#blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+#blk {
+    background-color: #2B859B;
+    padding: 100px;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+
+
+#prg {
+    background-color: black;
+    color: #2B859B;
+    font-family: "Bebas Neue", sans-serif;
+}
+img{
+    border-radius: 3px;
+    border: 20px solid black;
+}
+

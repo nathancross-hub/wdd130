@@ -1,0 +1,56 @@
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+    border: solid 5px black;
+    background-color: darkgray;
+}
+ul li:hover{
+    background-color: black;
+    color: aliceblue;
+}
+body{
+    background-color: crimson;
+}
+
+#wrapper{
+    margin: auto;
+    padding: 80px;
+    text-align: center;
+    background-color: pink;
+    border-radius: 30px;    
+}
+footer{
+    background-color: crimson;
+    width: 200px;
+    height: 20px;
+    margin: auto;
+    color: aliceblue;
+}
+
+section{
+    background-color: white;
+    border-radius: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr .3fr;
+}
+section:hover{
+    background-color: crimson;
+    color:white;
+    border-radius: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr .3fr;
+    h2{
+    color: black;
+}   
+}
+
+
+h2{
+    color: crimson;
+}
+img{
+    border-radius: 15px;
+    border: solid crimson 20px;
+}
